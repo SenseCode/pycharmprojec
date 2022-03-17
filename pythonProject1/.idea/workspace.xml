@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc5c0a0-3230-4a61-8c29-e7129e6f3e57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/179 largest number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/148 sort list.py" beforeDir="false" afterPath="$PROJECT_DIR$/148 sort list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
