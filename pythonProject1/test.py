@@ -18,4 +18,4 @@ a = [1, 2, 3],
 b = [1, 2, 3],
 k=31
 res=solution(a,b,k)
-print("result",res)
+print("result",res)，
