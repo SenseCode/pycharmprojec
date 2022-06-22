@@ -1,6 +1,3 @@
-from pyclbr import Class
-
-
 def canFinish(numCourses, prerequisites):
     preMap = {i: [] for i in range(numCourses)}
 
