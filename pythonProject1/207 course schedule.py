@@ -1,13 +1,13 @@
-def canFinish(self, numCourses, prerequisites):
+from pyclbr import Class
 
 
+def canFinish(numCourses, prerequisites):
     preMap = {i: [] for i in range(numCourses)}
 
     for crs, pre in prerequisites:
         preMap[crs].append(pre)
 
     visitedSet = set()
-
 
     def dfs(crs):  # 开始对course进行dfs search，对于送进来的course
         if crs in visitedSet:
@@ -23,8 +23,13 @@ def canFinish(self, numCourses, prerequisites):
         preMap[crs] = []
         return True
 
-
     for crs in range(numCourses):  # in case [1,2], [3,4]这种断开的情况，需要挨个循环
         if not dfs(crs):
             return False
     return True
+
+
+numCourses = 2
+prerequisites = [[1,0],[0,1]]
+x = canFinish(numCourses,prerequisites)
+print(x)
